@@ -139,6 +139,10 @@
     font-weight: 600;
 
 }
+.to-top:hover{
+    background-color: #ffffff7c;
+    box-shadow: 1px 1px 3px black;
+}
 
 .to-top.active {
     bottom: 32px;
