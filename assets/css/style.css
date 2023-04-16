@@ -1,0 +1,393 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo {
+    width: 110px;
+}
+
+.r-nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    font-size: 14px;
+}
+
+.nav-container ul>.nav-item {
+    position: relative;
+}
+
+.nav-container ul>.nav-item::after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 0%;
+    height: 2px;
+    border-radius: 25px;
+    background-color: black;
+    bottom: -1px;
+}
+
+.nav-container ul>.nav-item:hover:after {
+    width: 100%;
+}
+
+.nav-icons {
+    width: 18px;
+}
+
+.user-nav-icons {
+    width: 36px;
+
+}
+
+.arrow {
+    width: 15px;
+}
+
+.navbar {
+    background-color: white;
+}
+
+
+.hover-underline:hover {
+    text-decoration: underline;
+}
+
+.slider-a {
+    text-decoration: none;
+    color: white;
+}
+
+.d-d-i {
+    background-color: rgb(219, 219, 219) !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+}
+
+.carousel-caption p {
+    padding: 12px 0;
+}
+
+.carousel-caption .slider-a {
+    font-weight: 600;
+    position: relative;
+    width: fit-content;
+}
+
+.carousel-caption .slider-a::after {
+    position: absolute;
+    display: block;
+    content: '>';
+    bottom: 0px;
+    right: -16px;
+    transition: 0.5s;
+}
+
+.carousel-caption .slider-a:hover:after {
+    right: -24px;
+}
+
+.card-body a {
+    color: rgb(0, 103, 184);
+    font-weight: 600;
+    position: relative;
+}
+
+.card-body a::after {
+    position: absolute;
+    display: block;
+    content: '>';
+    bottom: 5px;
+    right: -16px;
+    transition: 0.5s;
+}
+
+.card-body a:hover:after {
+    right: -24px;
+}
+
+.card-body a:hover {
+    color: rgb(0, 103, 184);
+}
+
+.card-greater {
+    color: rgb(0, 103, 184);
+}
+
+.to-top {
+    position: fixed;
+    background-color: #d9d9d9;
+    width: fit-content;
+    height: fit-content;
+    right: 32px;
+    bottom: 100px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+
+.to-top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.link-icon {
+    width: 22px;
+}
+
+.bnr {
+    color: black;
+    text-decoration: none;
+    text-align: start;
+}
+
+.bnr-heading {
+    font-size: 2rem;
+}
+
+.bnr-a {
+    color: white;
+    background-color: rgb(0, 103, 184);
+    text-decoration: none;
+    width: fit-content;
+    margin: 12px;
+}
+
+.bnr-a:hover {
+    background-color: rgb(0, 90, 158);
+}
+
+
+.carousel-caption {
+    text-align: start;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    transform: translate(-50% -50%);
+}
+
+.bnr-caption {
+    text-align: start;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-50% -50%);
+}
+
+.dropdown-bottom {
+    background-color: #cdcdcd;
+    padding: 12px;
+    margin: 0%;
+
+}
+
+.dropdown-menu:hover .drop-item {
+    background-color: #eaeaea;
+}
+
+.drop-item h6 {
+    cursor: default;
+}
+
+.dropdown-bottom:hover {
+    background-color: #cdcdcd;
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    background: #eaeaea;
+    right: -170%;
+    top: 180%;
+    padding-bottom: 0%;
+    width: 1200%;
+}
+
+.dropdown-item {
+    padding: var(--bs-dropdown-item-padding-y) !important;
+}
+
+.carousel-caption-2,
+.carousel-caption-2>.slider-a {
+    color: black;
+}
+
+
+.carousel-indicators {
+    width: fit-content;
+    height: fit-content;
+    margin: 0% auto;
+    padding: 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    margin-right: 12px;
+    margin-left: 12px;
+    border-radius: 50%;
+    border: 0;
+    border: 1px solid black !important;
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    background-color: black !important;
+
+}
+
+.carousel-indicators {
+    bottom: -70px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../imgs/icons/right-arrow.png);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../imgs/icons/left-arrow.png);
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    position: absolute;
+    top: 12px;
+}
+
+.carousel-control-next[data-bs-target],
+.carousel-control-prev[data-bs-target] {
+    border: none !important;
+}
+
+footer {
+    background-color: #f3f3f3;
+}
+
+.mc-c {
+    cursor: text;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #5c5c5c;
+}
+
+.earth {
+    width: 22px;
+}
+
+.footer-row>.col-md-2>ul li a {
+    font-size: 12px;
+    text-align: start;
+}
+
+
+.col-md-2 {
+    margin-right: 4px;
+}
+
+.footer-row h6 {
+    color: #676767;
+}
+
+.footer-row p {
+    color: #676767;
+}
+
+
+
+
+
+
+
+/* // `xs` returns only a ruleset and no media query */
+/* // ... { ... } */
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .navbar-nav .dropdown-menu {
+        border-radius: 25px 25px 0 0 !important;
+        width: 100%;
+    }
+
+    .nav-link-icons {
+        margin: 12px !important;
+    }
+
+    .nav-item {
+        display: block !important;
+    }
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------custom-scroll-bar------------------ */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    /* background-color: rgb(204, 204, 204); */
+    background-color: rgba(204, 204, 204, 0);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(118, 118, 118);
+    border-radius: 50px;
+}
+
+/* ----------------custom-scroll-bar------------------ */
